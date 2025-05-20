@@ -1,6 +1,9 @@
 import React from "react";
 import { FaDumbbell, FaHeartbeat, FaUsers, FaAward } from "react-icons/fa";
 
+import gymheadingimg from "../../assets/gym Heading img.jpeg";
+import aboutourstory from "../../assets/about our story.jpeg";
+
 export default function About() {
   return (
     <div className="bg-gray-50">
@@ -9,7 +12,7 @@ export default function About() {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover opacity-40"
-            src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
+            src={aboutourstory}
             alt="Gym interior"
           />
         </div>
@@ -29,7 +32,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <img
-                src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg"
+                src={gymheadingimg}
                 alt="Titan Fitness gym"
                 className="w-full h-auto rounded-xl shadow-xl"
               />

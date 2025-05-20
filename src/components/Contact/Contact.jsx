@@ -1,4 +1,6 @@
 import React from "react";
+
+import contactimg from "../../assets/contact.jpeg";
 import {
   FaMapMarkerAlt,
   FaPhone,
@@ -17,7 +19,7 @@ export default function Contact() {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover opacity-40"
-            src="https://images.pexels.com/photos/703016/pexels-photo-703016.jpeg"
+            src={contactimg}
             alt="Person working out"
           />
         </div>
@@ -53,7 +55,7 @@ export default function Contact() {
                     <p className="mt-1 text-gray-600">
                       123 Fitness Avenue
                       <br />
-                      New York, NY 10001
+                      Kalyan , Thane - 110010 
                     </p>
                   </div>
                 </div>
@@ -65,9 +67,9 @@ export default function Contact() {
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                     <p className="mt-1 text-gray-600">
-                      Main: (212) 555-1234
+                      Main: +91-9370088100
                       <br />
-                      Support: (212) 555-5678
+                      Support: (0251) 555-5678
                     </p>
                   </div>
                 </div>

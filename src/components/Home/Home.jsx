@@ -1,5 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import gymheadingimg from "../../assets/gym Heading img.jpeg";
+
+import strengthzone from "../../assets/strength zone.jpeg"; 
+import functionaltraining from "../../assets/functional traning.jpeg";
+import personaltraining from "../../assets/personal traning.jpeg";
+import cardiodeck from "../../assets/cardio deck.jpeg";
+import freeweights from "../../assets/free weights.jpeg";
+import recoveryarea from "../../assets/recovery area.jpeg";
+
+import strengthtraning from "../../assets/strength training.jpg";
+import cardioconditioning from "../../assets/cardio conditioning.jpg";
+import combatfitness from "../../assets/combat fitness.jpg";
 
 export default function Home() {
   return (
@@ -9,7 +21,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover opacity-30"
-            src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg"
+            src={gymheadingimg}
             alt="Gym background"
           />
         </div>
@@ -147,27 +159,27 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                img: "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg",
+                img: strengthzone,
                 title: "Strength Zone",
               },
               {
-                img: "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg",
+                img: functionaltraining,
                 title: "Functional Training",
               },
               {
-                img: "https://images.pexels.com/photos/6550826/pexels-photo-6550826.jpeg",
+                img: personaltraining,
                 title: "Personal Training",
               },
               {
-                img: "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg",
+                img: cardiodeck,
                 title: "Cardio Deck",
               },
               {
-                img: "https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg",
+                img: freeweights,
                 title: "Free Weights",
               },
               {
-                img: "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg",
+                img: recoveryarea,
                 title: "Recovery Area",
               },
             ].map((item, index) => (
@@ -206,19 +218,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b",
+                img: strengthtraning,
                 title: "Strength Training",
                 description:
                   "Build muscle and increase power with our progressive programs",
               },
               {
-                img: "https://media.istockphoto.com/id/1132086660/photo/side-view-of-beautiful-muscular-woman-running-on-treadmill.jpg?s=612x612&w=0&k=20&c=5Vq_BJjG7sbIyKIP-Adu0pChReDXm0dC7BVPvto2M0I=",
+                img: cardioconditioning,
                 title: "Cardio Conditioning",
                 description:
                   "Improve endurance and burn fat with our HIIT and endurance programs",
               },
               {
-                img: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5",
+                img: combatfitness,
                 title: "Combat Fitness",
                 description:
                   "Boxing, MMA and functional training for total body conditioning",

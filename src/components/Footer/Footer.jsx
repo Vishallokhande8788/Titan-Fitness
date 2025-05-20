@@ -169,7 +169,7 @@ export default function Footer() {
                 Contact Us
               </h4>
               <p className="text-gray-600 text-sm">info@titanfitness.com</p>
-              <p className="text-gray-600 text-sm">+1 (555) 123-4567</p>
+              <p className="text-gray-600 text-sm">+91-9370088100</p>
             </div>
           </div>
         </div>
